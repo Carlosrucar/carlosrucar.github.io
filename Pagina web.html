@@ -1,36 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Rodríguez Ruiz Carlos" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web Simple</title>
+    <style>
+        #Cabecera {
+            background-color: rgb(255, 251, 127);
+            text-align: center;
+        }
+
+        #izquierda {
+            background-color: rgb(255, 251, 127);
+            float: left;
+            width: 50%;
+        }
+
+        #Derecha {
+            background-color: rgb(255, 251, 127);
+            float: left;
+            width: 50%;
+        }
+
+        #pie {
+            background-color: rgb(255, 251, 127);
+        }
+    </style>
 </head>
-<body style="background-color: #fff8dc;">
 
+<body style="background-color:rgb(255, 251, 127) ;">
     <header>
-        
-         <div style="background-color: darkgrey;text-align: center;"><h1>Bienvenido a mi página web</h1></div>
-         <div style="text-align: center;"><img src="https://images.ctfassets.net/q33z48p65a6w/2FFgGSCiRXvAl2vnngz3sJ/93a4a009d9bf5e172b7952f7b19842e7/chuck-fortner-LFVBohYmtgc-unsplash.jpg?fit=thumb&fl=progressive&fm=jpg&q=70&w=260"></div>
        
-    </header>
+            
+        <header>
+            <div id="Cabecera">
+                <h1>Bienvenido a mi página web</h1>
+                <nav>
+                    <a href="#teclados">Teclados</a>
+                    <a href="#ratones">Ratones</a>
+                    <a href="#Monitores">Monitores</a>
+                    <a href="#Alfombrillas">Alfombrillas</a>
+                    <a href="#Cascos">Cascos</a>
+                </nav>
+                <div style="text-align: center;">
+                    <img
+                        src="https://images.ctfassets.net/q33z48p65a6w/2FFgGSCiRXvAl2vnngz3sJ/93a4a009d9bf5e172b7952f7b19842e7/chuck-fortner-LFVBohYmtgc-unsplash.jpg?fit=thumb&fl=progressive&fm=jpg&q=70&w=260">
+                </div>
+            </div>
+        </header>
+    <div id="izquierda">
+        <section id="teclados">
+            <h2>Teclados</h2>
+            <p>Explora nuestra selección de teclados de alta calidad para gaming y productividad.</p>
+            <a href="teclados.html">
+                <figure>
+                    <img src="https://www.axartoner.com/images/productos/redragon-fizz-pro-k616-rgb-teclado-mecanico-gaming-inalambrico-usb-usb-c-y-bluetooth-iluminacion-rgb-teclas-redragon-red-color-rosa-blanco.jpg"
+                        width="350" height="250" alt="Teclados">
+                    <figcaption>Algunos de los teclados disponibles</figcaption>
+                </figure>
+            </a>
+        </section>
+        <section id="ratones">
+            <h2>Ratones</h2>
+            <p>Descubre nuestra colección de ratones diseñados para ofrecer la mejor experiencia de juego.</p>
+            <a href="Ratones.html">
+                <figure>
+                    <img src="https://www.vsgamers.es/thumbnails/product_gallery_large/uploads/products/logitech/ratones/raton-wireless-optico-logitech-g-pro-x-superlight--25400-dpi/galeria/raton-wireless-optico-logitech-g-pro-x-superlight--25400-dpi-14.jpg"
+                        width="350" height="250" alt="Ratones">
+                    <figcaption>Algunos de los ratones disponibles</figcaption>
+                </figure>
+            </a>
+        </section>
+        <section id="Monitores">
+            <h2>Monitores</h2>
+            <p>Sumérgete en la acción con nuestros monitores de alta resolución y frecuencia de actualización.</p>
+            <a href="Monitores.html">
+                <figure>
+                    <img src="https://www.hp.com/es-es/shop/Html/Merch/Images/c08541859_1750x1285.jpg" width="350"
+                        height="250" alt="Monitores">
+                    <figcaption>Algunos de los monitores disponibles</figcaption>
+                </figure>
+            </a>
+        </section>
+    </div>
+    <div id="Derecha">
+        <section id="Alfombrillas">
+            <h2>Alfombrillas</h2>
+            <p>Mejora tu espacio de juego con nuestras alfombrillas de alta calidad y diseño.</p>
+            <a href="Alfombrillas.html">
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Y8NmFGS0_BQKUDdfpuAWKcx4gdZmVThEsA&usqp=CAU"
+                        width="350" height="250" alt="Alfombrilla">
+                    <figcaption>Algunas de las Alfombrillas disponibles</figcaption>
+                </figure>
+            </a>
+        </section>
+        <section id="Cascos">
+            <h2>Cascos</h2>
+            <p>Sumérgete en el sonido con nuestros cascos diseñados para una experiencia de audio inmersiva.</p>
+            <a href="Cascos.html">
+                <figure>
+                    <img src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201809/24/00197578107464____1__1200x1200.jpg?impolicy=Resize&width=967"
+                        width="350" height="250" alt="Cascos">
+                    <figcaption>Algunos de los cascos disponibles</figcaption>
+                </figure>
+            </a>
+        </section>
+    </div>
 
-    <nav>
-    
-       <p> <h2>Estos Son algunos de los teclados que diponemos en nuestra página web</h2><a href="teclados.html"><img src="https://www.axartoner.com/images/productos/redragon-fizz-pro-k616-rgb-teclado-mecanico-gaming-inalambrico-usb-usb-c-y-bluetooth-iluminacion-rgb-teclas-redragon-red-color-rosa-blanco.jpg"width="350" height="250" alt="Teclados"></a></p>
-       <p> <h2>Estos Son algunos de los ratones que diponemos en nuestra página web</h2><a href="Ratones.html"><img src="https://i.blogs.es/e4f60c/razer-naga-pro/450_1000.webp"width="300" height="350" alt="Ratones"></a></p>
-       <p> <h2>Estos Son algunos de los monitores que diponemos en nuestra página web</h2><a href="contacto.html"><img src="https://www.vsgamers.es/thumbnails/product_gallery_large/uploads/products/asus-gaming/monitores/monitor--asus-tuf-gaming-tuf-vg247q1a238-full-hd-lcd--165-hz-mas-de-144-hz/galeria/monitor--asus-tuf-gaming-tuf-vg247q1a238-full-hd-lcd--165-hz-mas-de-144-hz-1.jpg"width="500" height="300" alt="Monitor"></a></p>
-      <p> <h2>Estos Son algunos de las alfombrillas que diponemos en nuestra página web</h2> <a href="servicios.html"><img src="https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8436532169465_1.jpg"width="450" height="300" alt="Alfombrillas"></a></p>
-       <p><h2>Estos Son algunos de los cascos que diponemos en nuestra página web</h2> <a href="galeria.html"><img src="https://www.vsgamers.es/thumbnails/product_gallery_large/uploads/products/corsair/1-AURICULARES/auriculares-gaming-corsair-virtuoso-wireless-blanco/galeria/auriculares-gaming-corsair-virtuoso-wireless-blanco-carbon-1.jpg"width="350" height="250" alt="Cascos Gaming"></a></p>
-    
-</nav>
-
-   
-
-    <footer>
-        Contacto.ig: <a href="https://www.instagram.com/">@carloss_rdrgz_</a>
-    
-    </footer>
-    
+    <div id="pie">
+        <footer>
+            Contacto.ig: <a href="https://www.instagram.com/">@carloss_rdrgz_</a>
+            Encuesta del Cliente: <a href="Encuesta.html">tipo de compras</a>
+        </footer>
+    </div>
 
 </body>
+
 </html>
