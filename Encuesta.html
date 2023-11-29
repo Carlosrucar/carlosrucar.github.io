@@ -3,22 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Rodríduez Ruiz Carlos" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta de Compras</title>
 </head>
 
 <body>
 
-    <h1>Encuesta de Compras</h1>
+    <h1 style="text-align: center; color: #333;">Encuesta de Compras</h1>
 
-    <form action="procesar_encuesta.php" method="post">
-        <label for="gustos">¿Cuáles son tus gustos de compras?</label><br>
-        <input type="text" id="gustos" name="gustos" required><br>
+    <form action="procesar_encuesta.php" method="post" style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <label for="nombre" style="display: block; margin-bottom: 10px; color: #333;">Nombre completo:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;">
+        <br>
 
-        <label for="tipos_compras">¿Qué tipos de compras prefieres?</label><br>
-        <input type="text" id="tipos_compras" name="tipos_compras" required><br>
+        <label for="email" style="display: block; margin-bottom: 10px; color: #333;">Correo electrónico:</label>
+        <br>
+        <input type="text" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;">
+        <br>
 
-        <input type="submit" value="Enviar">
+        <label for="edad" style="display: block; margin-bottom: 10px; color: #333;">Edad:</label>
+        <br>
+        <input type="text" id="edad" name="edad" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;">
+        <br>
+
+        <label for="gustos" style="display: block; margin-bottom: 10px; color: #333;">¿Cuáles son tus gustos de compras?</label>
+        <br>
+        <textarea id="gustos" name="gustos" rows="4" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;"></textarea>
+        <br>
+
+        <label for="tipos_compras" style="display: block; margin-bottom: 10px; color: #333;">¿Qué tipos de compras prefieres?</label>
+        <br>
+        <textarea id="tipos_compras" name="tipos_compras" rows="4" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;"></textarea>
+        <br>
+
+        <label for="experiencia" style="display: block; margin-bottom: 10px; color: #333;">Cuéntanos sobre tu última experiencia de compra:</label>
+        <br>
+        <textarea id="experiencia" name="experiencia" rows="4" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;"></textarea>
+        <br>
+
+        <input type="submit" value="Enviar" style="background-color: #4caf50; color: #fff; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">
     </form>
 
 </body>
