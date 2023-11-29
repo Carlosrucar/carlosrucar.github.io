@@ -3,61 +3,103 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Rodríguez Ruiz Carlos" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Simple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Mejorada</title>
+    <link rel="icon" type="imagen/x-icon" href="./foton.png">
     <style>
-        #Cabecera {
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        header {
             background-color: #040404;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            margin: 30px;
             text-align: center;
         }
 
-        #izquierda {
-            background-color: rgb(255, 251, 127);
-            float: left;
-            width: 50%;
+        section h2 {
+            color: #040404;
         }
 
+        section p {
+            margin-bottom: 30px;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            font-size: 14px;
+            color: #666;
+        }
+
+        #izquierda,
         #Derecha {
-            background-color: rgb(255, 251, 127);
             float: left;
             width: 50%;
+            box-sizing: border-box;
         }
 
         #pie {
-            background-color: rgb(255, 251, 127);
+            background-color: #040404;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
 
-<body style="background-color:rgb(255, 251, 127) ;">
+<body>
     <header>
-       
-            
-        <header>
-            
-            <div id="Cabecera" style="color: white ;">
-                <h1>Bienvenido a mi página web</h1>
-                <nav >
-                    <a href="#teclados" style="color: white;">Teclados</a>
-                    <a href="#ratones"style="color: white;">Ratones</a>
-                    <a href="#Monitores"style="color: white;">Monitores</a>
-                    <a href="#Alfombrillas"style="color: white;">Alfombrillas</a>
-                    <a href="#Cascos"style="color: white;">Cascos</a>
-                </nav>
-                <div style="text-align: center; ">
-                    <img
-                        src="foton.png" width="30%">
-                </div>
-            </div>
-        </header>
+        <h1>Bienvenido a mi página web</h1>
+        <nav>
+            <a href="#teclados">Teclados</a>
+            <a href="#ratones">Ratones</a>
+            <a href="#Monitores">Monitores</a>
+            <a href="#Alfombrillas">Alfombrillas</a>
+            <a href="#Cascos">Cascos</a>
+        </nav>
+        <div>
+            <img src="foton.png" width="30%" alt="Logo de la empresa">
+        </div>
+    </header>
+
     <div id="izquierda">
         <section id="teclados">
             <h2>Teclados</h2>
             <p>Explora nuestra selección de teclados de alta calidad para gaming y productividad.</p>
             <a href="teclados.html">
                 <figure>
-                    <img src="https://www.axartoner.com/images/productos/redragon-fizz-pro-k616-rgb-teclado-mecanico-gaming-inalambrico-usb-usb-c-y-bluetooth-iluminacion-rgb-teclas-redragon-red-color-rosa-blanco.jpg"
-                        width="350" height="250" alt="Teclados">
+                    <img src="https://www.axartoner.com/images/productos/redragon-fizz-pro-k616-rgb-teclado-mecanico-gaming-inalambrico-usb-usb-c-y-bluetooth-iluminacion-rgb-teclas-redragon-red-color-rosa-blanco.jpg" width="350" height="250" alt="Teclados">
                     <figcaption>Algunos de los teclados disponibles</figcaption>
                 </figure>
             </a>
@@ -67,8 +109,7 @@
             <p>Descubre nuestra colección de ratones diseñados para ofrecer la mejor experiencia de juego.</p>
             <a href="Ratones.html">
                 <figure>
-                    <img src="https://www.vsgamers.es/thumbnails/product_gallery_large/uploads/products/logitech/ratones/raton-wireless-optico-logitech-g-pro-x-superlight--25400-dpi/galeria/raton-wireless-optico-logitech-g-pro-x-superlight--25400-dpi-14.jpg"
-                        width="350" height="250" alt="Ratones">
+                    <img src="https://www.vsgamers.es/thumbnails/product_gallery_large/uploads/products/logitech/ratones/raton-wireless-optico-logitech-g-pro-x-superlight--25400-dpi/galeria/raton-wireless-optico-logitech-g-pro-x-superlight--25400-dpi-14.jpg" width="350" height="250" alt="Ratones">
                     <figcaption>Algunos de los ratones disponibles</figcaption>
                 </figure>
             </a>
@@ -78,21 +119,20 @@
             <p>Sumérgete en la acción con nuestros monitores de alta resolución y frecuencia de actualización.</p>
             <a href="Monitores.html">
                 <figure>
-                    <img src="https://www.hp.com/es-es/shop/Html/Merch/Images/c08541859_1750x1285.jpg" width="350"
-                        height="250" alt="Monitores">
+                    <img src="https://www.hp.com/es-es/shop/Html/Merch/Images/c08541859_1750x1285.jpg" width="350" height="250" alt="Monitores">
                     <figcaption>Algunos de los monitores disponibles</figcaption>
                 </figure>
             </a>
         </section>
     </div>
+
     <div id="Derecha">
         <section id="Alfombrillas">
             <h2>Alfombrillas</h2>
             <p>Mejora tu espacio de juego con nuestras alfombrillas de alta calidad y diseño.</p>
             <a href="Alfombrillas.html">
                 <figure>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Y8NmFGS0_BQKUDdfpuAWKcx4gdZmVThEsA&usqp=CAU"
-                        width="350" height="250" alt="Alfombrilla">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Y8NmFGS0_BQKUDdfpuAWKcx4gdZmVThEsA&usqp=CAU" width="350" height="250" alt="Alfombrilla">
                     <figcaption>Algunas de las Alfombrillas disponibles</figcaption>
                 </figure>
             </a>
@@ -102,8 +142,7 @@
             <p>Sumérgete en el sonido con nuestros cascos diseñados para una experiencia de audio inmersiva.</p>
             <a href="Cascos.html">
                 <figure>
-                    <img src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201809/24/00197578107464____1__1200x1200.jpg?impolicy=Resize&width=967"
-                        width="350" height="250" alt="Cascos">
+                    <img src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201809/24/00197578107464____1__1200x1200.jpg?impolicy=Resize&width=967" width="350" height="250" alt="Cascos">
                     <figcaption>Algunos de los cascos disponibles</figcaption>
                 </figure>
             </a>
@@ -112,17 +151,10 @@
 
     <div id="pie">
         <footer>
-            Contacto.ig: <a href="https://www.instagram.com/">@carloss_rdrgz_</a>
-           
-        </footer>
-    </div>
-    <div id="pie">
-        <footer>
-            
+            <p>Contacto IG: <a href="https://www.instagram.com/">@carloss_rdrgz_</a></p>
             <h2>Encuesta del Cliente: <a href="Encuesta.html">tipo de compras</a></h2>
         </footer>
     </div>
-
 </body>
 
 </html>
