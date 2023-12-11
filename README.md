@@ -12,11 +12,11 @@ PerifericosGo aborda el desafío de encontrar periféricos de calidad en un merc
 
 1. Clona este repositorio en tu máquina local:
 
-    ```bash
+    bash
     git clone https://github.com/tu-usuario/perifericosgo.git
-    ```
+    
 
-2. Abre el archivo `index.html` en tu navegador web.
+2. Abre el archivo index.html en tu navegador web.
 
 ## Despliegue / Compilación
 
@@ -44,9 +44,9 @@ PerifericosGo se distribuye bajo la licencia MIT. Para más detalles, consulta e
 ¡Agradecemos las contribuciones! Si deseas contribuir a PerifericosGo, sigue estos pasos:
 
 1. Realiza un fork del repositorio.
-2. Crea una rama con tus cambios: `git checkout -b feature/nueva-caracteristica`.
-3. Realiza tus cambios y haz commit: `git commit -m "Agrega nueva característica"`.
-4. Envía tus cambios al repositorio: `git push origin feature/nueva-caracteristica`.
+2. Crea una rama con tus cambios: git checkout -b feature/nueva-caracteristica.
+3. Realiza tus cambios y haz commit: git commit -m "Agrega nueva característica".
+4. Envía tus cambios al repositorio: git push origin feature/nueva-caracteristica.
 5. Abre una solicitud de extracción en GitHub.
 
 Este README proporciona una guía rápida para comenzar con PerifericosGo. ¡Disfruta explorando y adquiriendo tus periféricos favoritos!
